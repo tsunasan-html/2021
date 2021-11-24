@@ -1,0 +1,1036 @@
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Serif SC",serif;
+}
+
+
+.wrapper{
+
+  margin:0 auto;
+
+}
+.main{
+  position: relative;
+}
+.mainimg{
+  width:100%;
+}
+
+.height1{
+  margin-top:4rem;
+}
+
+
+.height1{
+  margin-top:4rem;
+}
+
+
+
+.works{
+ 
+  padding-top:3rem;
+  background-color:#383634;
+  color:white;
+  margin:0 auto;
+  text-align:center;
+}
+
+
+.skill_box{
+  text-align:center;
+  margin:0 auto;
+ 
+}
+
+.contactsend{
+  cursor: pointer;
+}
+
+
+.button_ghost:hover{
+  color:black!important;
+  background-color:#fff!important;
+}
+
+.button_ghost1:hover{
+  color:black!important;
+  background-color:#fff!important;
+}
+
+.fadeIn {
+  opacity: 0;
+  transition: 2s;
+}
+.fadeIn.is-show {
+  opacity: 1;
+}
+@media screen and (max-width:480px) { 
+/*　画面サイズが480px以下ははここを読み込む　*/
+
+.mainimgpc{
+  display:none;
+}
+ 
+    p.pmain{
+  font-size: 1.7rem;
+  font-weight: normal;
+  color: white;
+  position: absolute;
+  top: 82%;
+  left: 32%;
+  transform: translate(-50%,-50%); 
+}
+
+p.name{
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: white;
+  position: absolute;
+  top: 89%;
+  left: 32%;
+  transform: translate(-50%,-50%); 
+}
+
+
+.header{
+  max-width:309px;
+  margin:0 auto;
+}
+
+h2.heding{
+
+  text-align:center;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+h2#contact{
+  font-size: 1.3rem;
+}
+
+p.about_text{
+  
+  text-align:center;
+  font-size: 0.9rem;
+  font-weight: normal;
+  line-height: 1.8;
+}
+
+p.works_text{
+  margin-top:3rem;
+  padding-top:3rem;
+  text-align:center;
+  font-size: 0.9rem;
+  font-weight: normal;
+  line-height: 1.8;
+}
+
+.backgroundimg{
+  background-image: url("file:///Users/muneyukitetsuhiro/Desktop/portfolio/photo.png");
+  background-size: 100%;
+  
+}
+
+.button_ghost {
+  display: inline-block;
+  padding: 5px;
+  width: 50%;
+  color: #fff;
+  border: solid 1px #fff;
+  background: rgba(255,255,255,0.15); 
+  border-radius: 4px;
+  text-decoration: none;
+  transition:all 1.0s;
+}
+
+.button_ghost1 {
+  display: inline-block;
+  padding: 5px;
+  width: 50%;
+  color: #fff;
+  border: solid 1px #fff;
+  background: rgba(255,255,255,0.15); 
+  border-radius: 4px;
+  text-decoration: none;
+  transition:all 1.0s;
+  margin-bottom:4rem;
+}
+
+.skill_wrapper{
+  max-width:309px;
+  margin:0 auto;
+}
+
+.skills{
+  margin:2rem;
+}
+
+.skill_title::before {
+  content: '\f121';
+  margin: 0 auto 30px;
+  display: block;
+  font-family: "Font Awesome 5 Free";
+  font-size: 2rem;
+  line-height: 68px;
+  color: #f2003d;
+  border: solid 3px#f2003d;
+  border-radius: 50%;
+  width: 70px;
+}
+
+.skill_title1::before {
+  content: '\f5ad';
+  margin: 0 auto 30px;
+  display: block;
+  font-family: "Font Awesome 5 Free";
+  font-size: 2rem;
+  line-height: 68px;
+  color: #f2003d;
+  border: solid 3px#f2003d;
+  border-radius: 50%;
+  width: 70px;
+}
+
+.skill_title2::before {
+  content: '\f1c0';
+  margin: 0 auto 30px;
+  display: block;
+  font-family: "Font Awesome 5 Free";
+  font-size: 2rem;
+  line-height: 68px;
+  color: #f2003d;
+  border: solid 3px#f2003d;
+  border-radius: 50%;
+  width: 70px;
+}
+
+
+.skilltext{
+  font-size: 1.3rem;
+  margin:0.5 0;
+  line-height: 0;
+  
+}
+p.desc{
+  text-align:center;
+  font-size: 0.9rem;
+ 
+  line-height: 1.8; 
+  margin-bottom:4rem;
+}
+
+.backgroundcontactimg{
+  background-image: url("file:///Users/muneyukitetsuhiro/Desktop/portfolio/contact");
+  background-size: 210%;
+  
+}
+
+.contactcenter{
+  text-align:center;
+  padding-top:3rem;
+  color:white;
+}
+
+
+
+.contactmain{
+color:white;
+}
+
+.contactname{
+  display:block;
+  width: 70%;
+  margin: 10px auto;
+  outline:none;
+  padding:15px;
+  border: solid 1px rgba(255,255,255,0.4);
+  color: rgba(255, 255, 255, 0.877);
+  background: rgba(255,255,255,0.15);
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.contactmessage{
+  display:block;
+  width: 70%;
+  margin: 10px auto;
+  outline:none;
+  column-count: initial !important;
+  border: solid 1px rgba(255,255,255,0.4);
+  color: rgba(255, 255, 255, 0.877);
+  padding:15px;
+  border: solid 1px rgba(255,255,255,0.4);
+  color: rgba(255, 255, 255, 0.877);
+  background: rgba(255,255,255,0.15);
+  font-size: 16px;
+  
+}
+
+.contactsend{
+  display:block;
+  width: 60%;
+  margin: 35px auto;
+  color: rgba(255, 255, 255, 0.877);
+  border-radius: 5px;
+  padding:15px;
+  font-size: 16px;
+  outline:none;
+  border: solid 1px rgba(255,255,255,0.4);
+  background: transparent;
+}
+
+.copyright{
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+  margin:0;
+  padding-bottom:1rem;
+}
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:481px) and ( max-width:767px){ 
+/*　画面サイズが480pxからはここを読み込む　*/
+
+
+.mainimgpc{
+  display:none;
+}
+ 
+    p.pmain{
+  
+  font-size: 1.9rem;
+  font-weight: normal;
+  color: white;
+  position: absolute;
+  top: 84%;
+  left: 28%;
+  transform: translate(-50%,-50%); 
+}
+    
+p.name{
+
+  font-size: 1.6rem;
+  font-weight: normal;
+  color: white;
+  position: absolute;
+  top: 90%;
+  left: 28%;
+  transform: translate(-50%,-50%); 
+}
+    
+    
+.header{
+  max-width:470px;
+  margin:0 auto;
+}
+
+h2.heding{
+
+  text-align:center;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+    
+h2#contact{
+  font-size: 1.5rem;
+}
+
+p.about_text{
+  
+  text-align:center;
+  font-size: 0.9rem;
+  font-weight: normal;
+  line-height: 1.8;
+}
+    
+p.works_text{
+  margin-top:3rem;
+  padding-top:3rem;
+  text-align:center;
+  font-size: 0.9rem;
+  font-weight: normal;
+  line-height: 1.8;
+}
+    
+.backgroundimg{
+  background-image: url("file:///Users/muneyukitetsuhiro/Desktop/portfolio/photo.png");
+  background-size: 100%;
+  
+}
+
+.button_ghost {
+  display: inline-block;
+  padding: 5px;
+  width: 50%;
+  color: #fff;
+  border: solid 1px #fff;
+  background: rgba(255,255,255,0.15); 
+  border-radius: 4px;
+  transition:all 1.0s;
+  text-decoration: none;
+}
+    
+.button_ghost1 {
+  display: inline-block;
+  padding: 5px;
+  width: 50%;
+  color: #fff;
+  border: solid 1px #fff;
+  background: rgba(255,255,255,0.15); 
+  border-radius: 4px;
+  transition:all 1.0s;
+  text-decoration: none;
+  margin-bottom:4rem;
+}
+    
+.skill_wrapper{
+  max-width:309px;
+  margin:0 auto;
+}
+
+.skills{
+  margin:2rem;
+}
+
+.skill_title::before {
+  content: '\f121';
+  margin: 0 auto 30px;
+  display: block;
+  font-family: "Font Awesome 5 Free";
+  font-size: 2rem;
+  line-height: 68px;
+  color: #f2003d;
+  border: solid 3px#f2003d;
+  border-radius: 50%;
+  width: 70px;
+}
+    
+.skill_title1::before {
+  content: '\f5ad';
+  margin: 0 auto 30px;
+  display: block;
+  font-family: "Font Awesome 5 Free";
+  font-size: 2rem;
+  line-height: 68px;
+  color: #f2003d;
+  border: solid 3px#f2003d;
+  border-radius: 50%;
+  width: 70px;
+}
+    
+.skill_title2::before {
+  content: '\f1c0';
+  margin: 0 auto 30px;
+  display: block;
+  font-family: "Font Awesome 5 Free";
+  font-size: 2rem;
+  line-height: 68px;
+  color: #f2003d;
+  border: solid 3px#f2003d;
+  border-radius: 50%;
+  width: 70px;
+}
+    
+    
+.skilltext{
+  font-size: 1.3rem;
+  margin:0.5 0;
+  line-height: 0;
+  
+}
+p.desc{
+  text-align:center;
+  font-size: 0.9rem;
+ 
+  line-height: 1.8; 
+  margin-bottom:4rem;
+}
+    
+.backgroundcontactimg{
+  background-image: url("file:///Users/muneyukitetsuhiro/Desktop/portfolio/contact");
+  background-size: 210%;
+  
+}
+
+.contactcenter{
+  text-align:center;
+  padding-top:3rem;
+  color:white;
+}
+    
+    
+    
+.contactmain{
+color:white;
+}
+
+.contactname{
+  display:block;
+  width: 70%;
+  margin: 10px auto;
+  outline:none;
+  padding:15px;
+  border: solid 1px rgba(255,255,255,0.4);
+  color: rgba(255, 255, 255, 0.877);
+  background: rgba(255,255,255,0.15);
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.contactmessage{
+  display:block;
+  width: 70%;
+  margin: 10px auto;
+  outline:none;
+  column-count: initial !important;
+  border: solid 1px rgba(255,255,255,0.4);
+  color: rgba(255, 255, 255, 0.877);
+  padding:15px;
+  border: solid 1px rgba(255,255,255,0.4);
+  color: rgba(255, 255, 255, 0.877);
+  background: rgba(255,255,255,0.15);
+  font-size: 16px;
+  
+}
+
+.contactsend{
+  display:block;
+  width: 60%;
+  margin: 35px auto;
+  color: rgba(255, 255, 255, 0.877);
+  border-radius: 5px;
+  padding:15px;
+  font-size: 16px;
+  outline:none;
+  border: solid 1px rgba(255,255,255,0.4);
+  background: transparent;
+}
+.copyright{
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+  margin:0;
+  padding:2rem 0 1rem 0;
+}
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) and ( max-width:1024px) {
+  /*　画面サイズが768pxから1024pxまではここを読み込む　*/
+.mainimg{
+    display:none;
+}
+  
+.mainimgpc{
+    width:100%;
+}
+
+p.pmain{
+  max-width: 768px;
+  font-size: 2.2rem;
+  font-weight: normal;
+  color: white;
+  position: absolute;
+  top: 77%;
+  left: 18%;
+  transform: translate(-50%,-50%); 
+}
+      
+p.name{
+  max-width: 768px;
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: white;
+  position: absolute;
+  top: 88%;
+  left: 18%;
+  transform: translate(-50%,-50%); 
+}
+
+
+.header{
+  max-width:630px;
+  margin:0 auto;
+  font-weight: normal;
+}
+      
+h2.heding{
+
+  text-align:center;
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+p.about_text{
+  
+  text-align:center;
+  font-size: 0.9rem;
+  font-weight: normal;
+  line-height: 1.8;
+}
+  
+.works{
+  padding-top:1rem;
+}
+
+p.works_text{
+  margin-top:3rem;
+  padding-top:3rem;
+  text-align:center;
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1.8;
+}
+  
+.backgroundimg{
+  background-image: url("file:///Users/muneyukitetsuhiro/Desktop/portfolio/photo.png");
+  background-size: 100%;
+  
+}
+
+.works_flex{
+  display:flex;
+  justify-content:space-around;
+  
+}
+  
+.button_ghost {
+  display: inline-block;
+  padding: 7px;
+  width: 75%;
+  color: #fff;
+  border: solid 1px #fff;
+  background: rgba(255,255,255,0.15); 
+  border-radius: 4px;
+  text-decoration: none;
+  transition:all 1.0s;
+}
+      
+.button_ghost1 {
+  display: inline-block;
+  padding: 7px;
+  width: 75%;
+  color: #fff !important;
+  border: solid 1px #fff;
+  background: rgba(255,255,255,0.15); 
+  border-radius: 4px;
+  transition:all 1.0s;
+  text-decoration: none;
+  margin-bottom:4rem;
+}
+  
+.skill_wrapper{
+  max-width:700px;
+  margin:0 auto;
+  display:flex;
+  justify-content: space-between;
+}
+
+.skill_box{
+  max-width: 200px;
+}
+    
+.skills{
+  margin:2rem;
+}
+
+.skill_title::before {
+  content: '\f121';
+  margin: 0 auto 30px;
+  display: block;
+  font-family: "Font Awesome 5 Free";
+  font-size: 2rem;
+  line-height: 68px;
+  color: #f2003d;
+  border: solid 3px#f2003d;
+  border-radius: 50%;
+  width: 70px;
+}
+      
+.skill_title1::before {
+  content: '\f5ad';
+  margin: 0 auto 30px;
+  display: block;
+  font-family: "Font Awesome 5 Free";
+  font-size: 2rem;
+  line-height: 68px;
+  color: #f2003d;
+  border: solid 3px#f2003d;
+  border-radius: 50%;
+  width: 70px;
+}
+      
+.skill_title2::before {
+  content: '\f1c0';
+  margin: 0 auto 30px;
+  display: block;
+  font-family: "Font Awesome 5 Free";
+  font-size: 2rem;
+  line-height: 68px;
+  color: #f2003d;
+  border: solid 3px#f2003d;
+  border-radius: 50%;
+  width: 70px;
+}
+  
+  
+.skilltext{
+  font-size: 1.3rem;
+  margin:0.5 0;
+  line-height: 0;
+  
+}
+p.desc{
+  text-align:center;
+  font-size: 0.8rem;
+ 
+  line-height: 1.8; 
+  margin-bottom:4rem;
+}
+
+
+h2#contact{
+  font-size: 1.5rem;
+}
+
+.backgroundcontactimg{
+  background-image: url("file:///Users/muneyukitetsuhiro/Desktop/portfolio/contact");
+  background-size: 100%;
+  
+}
+  
+.contactcenter{
+  text-align:center;
+  padding:4.5rem 0 1.5rem 0;
+  color:white;
+}
+
+.contactmain{
+color:white;
+}
+
+.contactname{
+  display:block;
+  width: 70%;
+  margin: 10px auto;
+  outline:none;
+  padding:15px;
+  border: solid 1px rgba(255,255,255,0.4);
+  color: rgba(255, 255, 255, 0.977);
+  background: rgba(255,255,255,0.15);
+  text-transform: uppercase;
+  font-size: 16px;
+}
+      
+.contactmessage{
+  display:block;
+  width: 70%;
+  margin: 10px auto;
+  outline:none;
+  column-count: initial !important;
+  border: solid 1px rgba(255,255,255,0.4);
+  color: rgba(255, 255, 255, 0.877);
+  padding:15px;
+  border: solid 1px rgba(255,255,255,0.4);
+  color: rgba(255, 255, 255, 0.977);
+  background: rgba(255,255,255,0.15);
+  font-size: 16px;
+}
+    
+.contactsend{
+  display:block;
+  width: 50%;
+  margin: 35px auto;
+  color: rgba(255, 255, 255, 0.977);
+  border-radius: 5px;
+  padding:15px;
+  font-size: 16px;
+  outline:none;
+  border: solid 1px rgba(255,255,255,0.4);
+  background: transparent;
+}
+#send{
+  margin-bottom:8rem;
+}
+  
+.copyright{
+  font-size: 17px;
+  text-align: center;
+  color: #fff;
+  margin:0;
+  padding-bottom:0.5rem;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1024px) {
+    /*　画面サイズが1024pxからはここを読み込む　*/
+
+.mainimg{
+    display:none;
+}
+
+.mainimgpc{
+    width:100%;
+}
+
+p.pmain{
+  max-width: 1024px;
+  font-size: 2.9rem;
+  font-weight: normal;
+  color: white;
+  position: absolute;
+  top: 78%;
+  left: 18%;
+  transform: translate(-50%,-50%); 
+}
+    
+p.name{
+  max-width: 1024px;
+  font-size: 2rem;
+  font-weight: normal;
+  color: white;
+  position: absolute;
+  top: 88%;
+  left: 18%;
+  transform: translate(-50%,-50%); 
+}
+
+
+.header{
+  max-width:800px;
+  margin:0 auto;
+  font-weight: normal;
+}
+    
+h2.heding{
+
+  text-align:center;
+  font-size: 2.2rem;
+  font-weight: normal;
+}
+
+p.about_text{
+  
+  text-align:center;
+  font-size: 0.9rem;
+  font-weight: normal;
+  line-height: 1.8;
+}
+
+.works{
+  padding-top:1rem;
+}
+
+p.works_text{
+  margin-top:3rem;
+  padding-top:3rem;
+  text-align:center;
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1.8;
+}
+
+.backgroundimg{
+  background-image: url("file:///Users/muneyukitetsuhiro/Desktop/portfolio/photo.png");
+  background-size: 100%;
+  
+}
+
+.works_flex{
+  display:flex;
+  justify-content:space-around;
+  
+}
+
+.button_ghost {
+  display: inline-block;
+  padding: 7px;
+  width: 75%;
+  color: #fff;
+  border: solid 1px #fff;
+  background: rgba(255,255,255,0.15); 
+  border-radius: 4px;
+  transition:all 1.0s;
+  text-decoration: none;
+}
+    
+.button_ghost1 {
+  display: inline-block;
+  padding: 7px;
+  width: 75%;
+  color: #fff;
+  border: solid 1px #fff;
+  background: rgba(255,255,255,0.15); 
+  border-radius: 4px;
+  transition:all 1.0s;
+  text-decoration: none;
+  margin-bottom:4rem;
+}   
+    
+.skill_wrapper{
+  max-width:900px;
+  margin:0 auto;
+  display:flex;
+  justify-content: space-between;
+}
+.skill_box{
+  max-width: 250px;
+}
+    
+.skills{
+  margin:2rem;
+}
+
+.skill_title::before {
+  content: '\f121';
+  margin: 0 auto 30px;
+  display: block;
+  font-family: "Font Awesome 5 Free";
+  font-size: 2rem;
+  line-height: 68px;
+  color: #f2003d;
+  border: solid 3px#f2003d;
+  border-radius: 50%;
+  width: 70px;
+}
+    
+.skill_title1::before {
+  content: '\f5ad';
+  margin: 0 auto 30px;
+  display: block;
+  font-family: "Font Awesome 5 Free";
+  font-size: 2rem;
+  line-height: 68px;
+  color: #f2003d;
+  border: solid 3px#f2003d;
+  border-radius: 50%;
+  width: 70px;
+}
+    
+.skill_title2::before {
+  content: '\f1c0';
+  margin: 0 auto 30px;
+  display: block;
+  font-family: "Font Awesome 5 Free";
+  font-size: 2rem;
+  line-height: 68px;
+  color: #f2003d;
+  border: solid 3px#f2003d;
+  border-radius: 50%;
+  width: 70px;
+}
+
+
+.skilltext{
+  font-size: 1.3rem;
+  margin:0.5 0;
+  line-height: 0;
+  
+}
+p.desc{
+  text-align:center;
+  font-size: 0.9rem;
+ 
+  line-height: 1.8; 
+  margin-bottom:4rem;
+}
+
+
+h2#contact{
+  font-size: 2.2rem;
+}
+
+.backgroundcontactimg{
+  background-image: url("file:///Users/muneyukitetsuhiro/Desktop/portfolio/contact");
+  background-size: 100%;
+  
+}
+
+.contactcenter{
+  text-align:center;
+  padding:4.5rem 0 1.5rem 0;
+  color:white;
+}
+
+.contactmain{
+color:white;
+}
+
+.contactname{
+  display:block;
+  width: 50%;
+  margin: 10px auto;
+  outline:none;
+  padding:15px;
+  border: solid 1px rgba(255,255,255,0.4);
+  color: rgba(255, 255, 255, 0.977);
+  background: rgba(255,255,255,0.15);
+  text-transform: uppercase;
+  font-size: 16px;
+}
+    
+.contactmessage{
+  display:block;
+  width: 50%;
+  margin: 10px auto;
+  outline:none;
+  column-count: initial !important;
+  border: solid 1px rgba(255,255,255,0.4);
+  color: rgba(255, 255, 255, 0.877);
+  padding:15px;
+  border: solid 1px rgba(255,255,255,0.4);
+  color: rgba(255, 255, 255, 0.977);
+  background: rgba(255,255,255,0.15);
+  font-size: 16px;
+}
+  
+.contactsend{
+  display:block;
+  width: 20%;
+  margin: 35px auto;
+  color: rgba(255, 255, 255, 0.977);
+  border-radius: 5px;
+  padding:15px;
+  font-size: 16px;
+  outline:none;
+  border: solid 1px rgba(255,255,255,0.4);
+  background: transparent;
+}
+#send{
+  margin-bottom:8rem;
+}
+
+.copyright{
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  margin:0;
+  padding-bottom:1rem;
+}
+}

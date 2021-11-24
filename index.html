@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="hamburger.css">
+  <link rel="stylesheet" href="responsive.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="fade.js"></script>
+  
+</head>
+<body>
+
+  <div id="navArea">
+    <nav>
+      <div class="inner">
+        <ul>
+          <li><a href="index.html#">ABOUT ME</a></li>
+          <li><a href="index.html#works_l">WORKS</a></li>
+          <li><a href="index.html#skill_l">SKILLS</a></li>
+          <li><a href="index.html#contact_l">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="toggle_btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div id="mask"></div>
+
+  <div class="wrapper">
+
+    <div class="main">
+      <img  class="mainimg" src="cat1121.jpg" alt="">
+      <img  class="mainimgpc" src="pccat.jpg" alt="">
+      <p class="pmain">Web coder</p>
+      <p class="name">Muneyuki Tetsuhiro</p>
+    </div>
+
+    <div class="height1"></div>
+
+    <div class="header">
+      <h2 class="heding">ABOUT ME</h2>
+      <p class="about_text">31歳のWebコーダー。<br>
+        独学でWeb制作会社のコーダーとなり、仕事を通じてCSS / JavaScript / PHP / illustrator/ Photoshopを学びました。
+      </p>
+      <p class="about_text">これからは、保守性に優れたコーディングや、多くの検証による的確なサイト運営ができるようになりたいと思います。</p>
+    </div>
+
+    <div class="height1"></div>
+
+    <div id="works_l" class="works">
+      <h2 class="heding">WORKS</h2>
+        <div class="backgroundimg">
+          <div class="works_flex">
+            <div class="works_box">
+              <p class="works_text">
+                【○○○】<br>
+                ○○○○○○○○○○○○<br>
+                ○○○○○○
+              </p>
+              <a class="button_ghost" href="#">Read More</a>
+            </div>
+
+            <div class="works_box">
+              <p class="works_text">
+                【○○○】<br>
+                ○○○○○○○○○○○○<br>
+                ○○○○○○
+              </p>
+              <a class="button_ghost1" href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div id="skill_l" class="height1"></div>
+
+    <div class="skills">
+      <h2 class="heding">SKILLS</h2>
+    </div>
+    <div class="skill_wrapper">
+      <div class="skill_box"> 
+          <h3 class="skill_title"></h3>
+          <p class="skilltext">CODING</p>
+          <p class="desc">HTML/CSSでレスポンシブサイトのコーディングができます。</p>
+    </div>
+
+      <div class="skill_box">
+        <h3 class="skill_title1"></h3>
+          <p class="skilltext">DESIGN</p>
+        <p class="desc">Photoshopを使用した画像加工、Illustratorを使用したPOP作成ができます。</p>
+      </div>
+
+      <div class="skill_box">
+        <h3 class="skill_title2"></h3>
+          <p class="skilltext">OTHERS</p>
+        <p class="desc">現在Python / Vue.jsを学習中です。</p>
+      </div>
+    </div>
+
+    <section id="contact_l" class="contact">
+      <div class="backgroundcontactimg">
+        <div class="section_bg">
+          <div class="section_bg_inner"></div>
+        </div>
+        <div class="contactcenter">
+          <h2 id="contact" class="heading">CONTACT</h2>
+       </div>
+
+       <from class="contactmain" action="index.html" method="post">
+         <label for="name"></label>
+         <input class="contactname" type="text" id="name" name="name" placeholder="NAME">
+         <lavel for="message"></lavel>
+         <textarea class="contactmessage" name="message" id="message" cols="30" rows="10" placeholder="MASSAGE"></textarea>
+         <input class="contactsend" id="send" type="submit" value="SEND">
+       </from>
+
+       <div class="height1"></div>
+
+       <footer class="footer">
+         <p class="copyright">Copyright &copy Portfolio All Rights Reserved.</p>
+       </footer>
+      </div>
+    </section>
+  </div>
+
+<script>
+
+
+$(function(){
+  $(".inview").on("inview", function (event, isInView) {
+    if (isInView) {
+      $(this).stop().addClass("is-show");
+    }
+  });
+});
+
+  (function($) {
+  var $nav   = $('#navArea');
+  var $btn   = $('.toggle_btn');
+  var $mask  = $('#mask');
+  var open   = 'open'; // class
+  // menu open close
+  $btn.on( 'click', function() {
+    if ( ! $nav.hasClass( open ) ) {
+      $nav.addClass( open );
+    } else {
+      $nav.removeClass( open );
+    }
+  });
+  // mask close
+  $mask.on('click', function() {
+    $nav.removeClass( open );
+  });
+} )(jQuery);
+
+// リンクボタンを押したら閉じる
+$('a').on('click', function() {  
+  $('#navArea').removeClass('open');
+});
+
+</script>
+</body>
+</html>
