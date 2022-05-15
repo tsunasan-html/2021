@@ -128,9 +128,15 @@ p.works_text{
 }
 
 .backgroundimg{
-  background-image: url("https://github.com/tsunasan-html/2021/blob/main/photo.png?raw=true");
+  background-image: url("file:///Users/muneyukitetsuhiro/Desktop/portfolio/photo.png");
   background-size: 100%;
   
+}
+
+.spansample {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0,2rem;
 }
 
 .button_ghost {
@@ -222,7 +228,7 @@ p.desc{
 }
 
 .backgroundcontactimg{
-  background-image: url("https://github.com/tsunasan-html/2021/blob/main/contact.jpg?raw=true");
+  background-image: url("file:///Users/muneyukitetsuhiro/Desktop/portfolio/contact.jpg");
   background-size: 210%;
   
 }
@@ -363,9 +369,15 @@ p.works_text{
 }
     
 .backgroundimg{
-  background-image: url("https://github.com/tsunasan-html/2021/blob/main/photo.png?raw=true");
+  background-image: url("file:///Users/muneyukitetsuhiro/Desktop/portfolio/photo.png");
   background-size: 100%;
   
+}
+
+.spansample {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0,2rem;
 }
 
 .button_ghost {
@@ -457,7 +469,7 @@ p.desc{
 }
     
 .backgroundcontactimg{
-  background-image: url("https://github.com/tsunasan-html/2021/blob/main/contact.jpg?raw=true");
+  background-image: url("file:///Users/muneyukitetsuhiro/Desktop/portfolio/contact.jpg");
   background-size: 210%;
   
 }
@@ -521,6 +533,9 @@ color:white;
   color: #fff;
   margin:0;
   padding:2rem 0 1rem 0;
+
+
+
 }
 }
 
@@ -590,17 +605,27 @@ p.about_text{
   padding-top:1rem;
 }
 
+.works_box {
+  width: 50%;
+}
+
+.spansample {
+  display: block;
+  font-size: 1.3rem;
+  margin-bottom: 0,2rem;
+}
+
 p.works_text{
   margin-top:3rem;
-  padding-top:3rem;
+  padding-top:1rem;
   text-align:center;
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-weight: normal;
   line-height: 1.8;
 }
   
 .backgroundimg{
-  background-image: url("https://github.com/tsunasan-html/2021/blob/main/photo.png?raw=true");
+  background-image: url("file:///Users/muneyukitetsuhiro/Desktop/portfolio/photo.png");
   background-size: 100%;
   
 }
@@ -614,7 +639,7 @@ p.works_text{
 .button_ghost {
   display: inline-block;
   padding: 7px;
-  width: 75%;
+  width: 50%;
   color: #fff;
   border: solid 1px #fff;
   background: rgba(255,255,255,0.15); 
@@ -626,7 +651,7 @@ p.works_text{
 .button_ghost1 {
   display: inline-block;
   padding: 7px;
-  width: 75%;
+  width: 50%;
   color: #fff !important;
   border: solid 1px #fff;
   background: rgba(255,255,255,0.15); 
@@ -711,7 +736,7 @@ h2#contact{
 }
 
 .backgroundcontactimg{
-  background-image: url("https://github.com/tsunasan-html/2021/blob/main/contact.jpg?raw=true");
+  background-image: url("file:///Users/muneyukitetsuhiro/Desktop/portfolio/contact.jpg");
   background-size: 100%;
   
 }
@@ -849,15 +874,15 @@ p.about_text{
 
 p.works_text{
   margin-top:3rem;
-  padding-top:3rem;
+  padding-top:2rem;
   text-align:center;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: normal;
   line-height: 1.8;
 }
 
 .backgroundimg{
-  background-image: url("https://github.com/tsunasan-html/2021/blob/main/photo.png?raw=true");
+  background-image: url("file:///Users/muneyukitetsuhiro/Desktop/portfolio/photo.png");
   background-size: 100%;
   
 }
@@ -868,10 +893,20 @@ p.works_text{
   
 }
 
+.works_box {
+  width: 50%;
+}
+
+.spansample {
+  display: block;
+  font-size: 1.4rem;
+  margin-bottom: 0.4rem;
+}
+
 .button_ghost {
   display: inline-block;
   padding: 7px;
-  width: 75%;
+  width: 50%;
   color: #fff;
   border: solid 1px #fff;
   background: rgba(255,255,255,0.15); 
@@ -883,7 +918,7 @@ p.works_text{
 .button_ghost1 {
   display: inline-block;
   padding: 7px;
-  width: 75%;
+  width: 50%;
   color: #fff;
   border: solid 1px #fff;
   background: rgba(255,255,255,0.15); 
@@ -892,7 +927,7 @@ p.works_text{
   text-decoration: none;
   margin-bottom:4rem;
 }   
-    
+
 .skill_wrapper{
   max-width:900px;
   margin:0 auto;
@@ -967,7 +1002,7 @@ h2#contact{
 }
 
 .backgroundcontactimg{
-  background-image: url("https://github.com/tsunasan-html/2021/blob/main/contact.jpg?raw=true");
+  background-image: url("file:///Users/muneyukitetsuhiro/Desktop/portfolio/contact.jpg");
   background-size: 100%;
   
 }
